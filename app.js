@@ -70,5 +70,5 @@ async function renderApplication(req, res) {
   }
 }
 
-app.get('/', (req, res) => { renderApplication(req, res) })
+app.get('/', renderApplication)
 app.listen(3000, () => console.log('listening for requests on port 3000'))
