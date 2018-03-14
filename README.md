@@ -5,6 +5,7 @@ Simple pagination and searching against The Guardian API
 **Requirements**
 
 * node v 8.9 or higher
+* npm v 5.5 or higher
 * [a valid api key](http://open-platform.theguardian.com/access/)
 
 **Running**
