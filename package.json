@@ -1,0 +1,16 @@
+{
+  "name": "guardian-reader",
+  "version": "1.0.0",
+  "description": "a simple news feed written in node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jguest",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "pug": "^2.0.1"
+  }
+}

@@ -1,0 +1,24 @@
+html
+  head
+    title JGuest Guardian Reader
+    link(href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet")
+    link(rel="stylesheet" type="text/css" href="/css/skeleton.css")
+    link(rel="stylesheet" type="text/css" href="/css/normalize.css")
+    link(rel="stylesheet" type="text/css" href="/css/styles.css")
+  body
+    .container
+      .header
+        h1(class="u-pull-left indent title") JGuest Guardian Reader
+        form(action="/" method="GET" class="u-pull-right padding-top")
+          input(name="q" value=query type="text" class="margin-right")
+          input(type="submit" value="Search")
+      hr
+      ul(class="no-list-style indent")
+        each article in articles
+          li
+            a(href=article.webUrl target="_blank") 
+              = article.webTitle
+      .center
+        if pathToLast
+          a(href=pathToLast class="button margin-right") Prev
+        a(href=pathToNext class="button button-primary") Next

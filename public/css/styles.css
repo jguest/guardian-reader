@@ -1,0 +1,7 @@
+.no-list-style { list-style: none; }
+.header { height: 100px; }
+.padding-top { padding-top: 50px; }
+.margin-right { margin-right: 5px; }
+.indent { padding-left: 100px; }
+.center { text-align: center; }
+.title { font-family: 'Amatic SC', cursive; font-size: 50px; }
