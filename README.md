@@ -10,7 +10,7 @@ Simple pagination and searching against The Guardian API
 **Running**
 
 ```bash
-git clone guardian-reader
+git clone https://github.com/jguest/guardian-reader.git
 cd guardian-reader
 npm install
 API_KEY=supersecretkey node app.js
